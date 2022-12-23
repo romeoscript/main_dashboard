@@ -11626,12 +11626,14 @@ code {
   z-index: 9999;
   background: #000; }
   #proBanner .card-body-padding {
+  display: none!important;
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: 2rem;
     padding-right: 2rem; }
     @media (max-width: 766px) {
       #proBanner .card-body-padding {
+        display: none!important;
         padding-left: 1rem;
         padding-right: 1rem; } }
   #proBanner .buy-now-text {
@@ -14456,6 +14458,9 @@ dl {
   align-items: center;
   flex-wrap: wrap;
 }
-..components button{
+.components button{
   margin: 1rem;
+}
+.navbar{
+  padding-top:0!important ;
 }
