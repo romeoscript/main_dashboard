@@ -14448,3 +14448,14 @@ dl {
   flex-grow: 1; }
 
 /*# sourceMappingURL=style.css.map */
+
+.components{
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+..components button{
+  margin: 1rem;
+}
